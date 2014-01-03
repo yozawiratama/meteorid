@@ -1,0 +1,23 @@
+html,body{
+    height: 100%;
+}
+.front-side-wrapper{
+    height: 100%;
+
+}
+.front-side-wrapper h1{
+    font-size: 48px;
+}
+
+.page-content{
+    overflow: scroll;
+    height: 100%;
+    padding: 30px 30px;
+}
+
+.mini-box{
+    padding: 10px 5px;
+}
+.margin-top20{
+    margin-top: 20px;
+}

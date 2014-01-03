@@ -1,0 +1,36 @@
+<template name="tmp_blog_post">
+    <div>
+        <h1>Cara Install Meteor</h1>
+
+        <p class="lead">by <a href="">Yoza Wiratama</a></p>
+        <hr>
+        <p><span class="glyphicon glyphicon-time"></span> Posted on January 03, 2014 at 9:25 PM</p>
+        <hr>
+        <p class="lead">Meteorjs adalah sebuah framework yang merupakan gabungan node.js dan mongodb serta beberapa library lainnya.</p>
+
+        <blockquote>Dengan meteorjs kita dapat mengembangkan web apps yang pada umumnya dikerjakan dalam waktu beberapa bulan menjadi beberapa minggu.</blockquote>
+
+        <p>Sebelum memulai cara meng-install meteorjs di laptop atau kemputer yang kita gunakan untuk pengembangan, saya ingin sedikit menjelaskan tentang kecocokan antara meteorjs dan sistem operasi. Meteorjs dikembangkan untuk sistem operasi linux dan mac, akan tetapi para pengguna windows tetap menggunakannya walau dengan dukungan yang tidak maksimal. hal ini dikarenakan meteorjs untuk windows tidak dibuat officially.
+        Berikut cara meng-install meteorjs :</p>
+
+        <p>mac dan linux : </p>
+        <p>Pada sistem operasi ini buka terminal dan jalankan script ini : </p>
+        <pre><code>$ curl https://install.meteor.com | /bin/sh</code></pre>
+
+        <p>windows :</p>
+        <p>Pada sistem operasi ini kita tinggal download installer meteor dari website ini : </p>
+        <pre><a href="http://win.meteor.com">http://win.meteor.com</a></pre>
+
+        <p>Setelah selesai melakukan instalasi, kita sudah dapat membuat proyek meteor dengan :</p>
+        <pre><code>$ meteor create namaproyek<br />$ cd namaproyek<br />$ meteor<br/>=> Meteor server running on: http://localhost:3000/</code></pre>
+        <p>Setelah itu kita buka browser dan akses : </p>
+        <pre>http://localhost:3000</pre>
+        <p>Dan inilah hasilnya.</p>
+        <p>Begitulah sekilas cara instalasi, membuat dan menjalankan meteor.</p>
+    </div>
+
+</template>
+
+<template name="temp">
+    {{content}}
+</template>
